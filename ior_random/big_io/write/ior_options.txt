@@ -1,0 +1,17 @@
+ Options:
+api                 : POSIX
+apiVersion          :
+test filename       : /home/mpatamsetti/ior_data/ior_big_io_5GB_random.bin
+access              : single-shared-file
+type                : independent
+segments            : 1
+ordering in a file  : random
+ordering inter file : no tasks offsets
+nodes               : 1
+tasks               : 1
+clients per node    : 1
+repetitions         : 1
+xfersize            : 32 MiB
+blocksize           : 5 GiB
+aggregate filesize  : 5 GiB
+
